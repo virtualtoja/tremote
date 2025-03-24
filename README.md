@@ -3,8 +3,11 @@ Simple, fast (at least attempting to be) remote control system written in Python
 
 ## Contents
 **m_serv.py** = the main server - the middleman in the whole operation
+
 **l_serv.py** = the local server - a server which can be assigned to a client
+
 **l_client.py** = the client - the file meant to be run on the other computer, gets commands from the local server and runs them.
+
 **l_wrapper.py** = a GUI based application used to manage one or more local server instances. (UNSTABLE)
 
 **l_wrapper_silent.c** = the local server, but hidden, running in the background (Windows only)
